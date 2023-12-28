@@ -395,6 +395,7 @@ export interface ApiPropertyProperty extends Schema.CollectionType {
     square_footage: Attribute.Float;
     requirements: Attribute.JSON & Attribute.Required;
     categories: Attribute.JSON;
+    property_photos: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
